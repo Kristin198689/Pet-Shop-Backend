@@ -98,7 +98,7 @@ const orderData = {
   ]
 };
 
-axios.post('http://localhost:3333/order/send', orderData, {
+axios.post('http://localhosts://:3333/order/send', orderData, {
   headers: {
     'Content-Type': 'application/json'
   }
